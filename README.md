@@ -1,6 +1,6 @@
 # vagrant-xfce4-ubuntu
 
-Vagrant-based development environment using [Xubuntu](https://xubuntu.org/), with GUI (i.e., not headless).
+Vagrant-based development environment using [Ubuntu](https://xubuntu.org/), with GUI (i.e., not headless). The Xfce Desktop Environment is used instead of the default Unity for performance reasons.
 
 The Vagrant base box is the official Ubuntu 16.04 (Xenial Xerus) 64-bit box [available from Hashicorp Atlas](https://atlas.hashicorp.com/ubuntu/boxes/xenial64).
 
