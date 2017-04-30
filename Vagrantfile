@@ -30,7 +30,7 @@ Vagrant.configure('2') do |config|
   config.vm.provision 'file', source: "#{ENV['HOME']}/.ssh/id_rsa", destination: '~/.ssh/id_rsa'
 
   config.vm.provision 'shell', privileged: false, path: 'provision/base.sh', name: 'base.sh'
-  config.vm.provision 'shell', privileged: false, path: 'provision/ubuntu.sh', name: 'deb.sh'
+  config.vm.provision 'shell', privileged: false, path: 'provision/deb.sh', name: 'deb.sh'
   config.vm.provision 'shell', privileged: false, path: 'provision/git.sh', name: 'git.sh'
   config.vm.provision 'shell', privileged: false, path: 'provision/xfce4.sh', name: 'xfce4.sh'
   config.vm.provision 'shell', privileged: false, path: 'provision/apps.sh', name: 'apps.sh'
